@@ -1,10 +1,10 @@
 {
   "name": "altstor_repo",
-  "identifier": "App.PTC-373",
+  "identifier": "com.neolooser_appPTC.repo",
   "apps": [
     {
       "name": "Payload",
-      "bundleIdentifier": "com.neolooser.ptc373",
+      "bundleIdentifier": "APP.PTC-373",
       "developerName": "Neolooser",
       "version": "1.0",
       "versionDate": "2026-04-12",
