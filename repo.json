@@ -1,6 +1,6 @@
 {
   "name": "altstor_repo",
-  "identifier": "com.neolloser_appPTC.repo",
+  "identifier": "App.PTC-373",
   "apps": [
     {
       "name": "Payload",
