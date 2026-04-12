@@ -4,7 +4,7 @@
   "apps": [
     {
       "name": "Payload",
-      "bundleIdentifier": "APP.PTC-373",
+      "bundleIdentifier": "App.PTC-373",
       "developerName": "Neolooser",
       "version": "1.0",
       "versionDate": "2026-04-12",
