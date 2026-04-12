@@ -1,0 +1,17 @@
+{
+  "name": "altstor_repo",
+  "identifier": "com.neolloser_appPTC.repo",
+  "apps": [
+    {
+      "name": "PTC373",
+      "bundleIdentifier": "com.neolooser.ptc373",
+      "developerName": "Neolooser",
+      "version": "1.0",
+      "versionDate": "2026-04-12",
+      "downloadURL": "https://Neolooser.github.io/altstore-repo/PTC373.ipa",
+      "iconURL": "https://TONPSEUDO.github.io/altstore-repo/icon.png",
+      "localizedDescription": "Mon app en test via AltStore",
+      "size": 24603048
+    }
+  ]
+}
