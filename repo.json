@@ -1,5 +1,5 @@
 {
-  "name": "altstor_repo",
+  "name": "Neolooser",
   "identifier": "com.neolooser_appPTC.repo",
   "apps": [
     {
@@ -11,7 +11,7 @@
       "versionDate": "2026-04-12",
       "downloadURL": "https://neolooser.github.io/PTC_373/Payload.ipa",
       "iconURL": "https://neolooser.github.io/PTC_373/icon.png",
-      "localizedDescription": "Mon app en test via AltStore",
+      "localizedDescription": "Application du CIS Pontault-Combault en test pour développeur",
       "size": 24605708
     }
   ]
