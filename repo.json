@@ -3,7 +3,7 @@
   "identifier": "com.neolloser_appPTC.repo",
   "apps": [
     {
-      "name": "PTC373",
+      "name": "Payload",
       "bundleIdentifier": "com.neolooser.ptc373",
       "developerName": "Neolooser",
       "version": "1.0",
