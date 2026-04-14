@@ -1,4 +1,4 @@
-name: Create Issue from App
+name: Bug Report from iOS App
 
 on:
   repository_dispatch:
@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Create issue
+      - name: Create GitHub Issue
         uses: actions/github-script@v7
         with:
           script: |
@@ -18,5 +18,5 @@ jobs:
               repo: context.repo.repo,
               title: context.payload.client_payload.title,
               body: context.payload.client_payload.body,
-              labels: ['bug']
+              labels: ["bug"]
             })
