@@ -1,0 +1,17 @@
+[
+  {
+    "username": "admin",
+    "password": "admin",
+    "level": "admin",
+    "firstName": "Admin",
+    "lastName": "System"
+  },
+  {
+    "username": "chef1",
+    "password": "chef",
+    "level": "chefDeCentre",
+    "firstName": "Jean",
+    "lastName": "Dupont",
+    "center": "Centre 1"
+  }
+]

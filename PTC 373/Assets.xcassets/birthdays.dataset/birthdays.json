@@ -1,0 +1,17 @@
+[//date = annee mois jour
+  {
+    "name": "Jean Dupont",
+    "birthdate": "1990-04-03",
+    "role": "Sapeur"
+  },
+  {
+    "name": "Marie Martin",
+    "birthdate": "1985-11-22",
+    "role": "Capitaine"
+  },
+  {
+    "name": "Pierre Durand",
+    "birthdate": "1992-03-10",
+    "role": "Lieutenant"
+  }
+]
