@@ -23,12 +23,22 @@
 		A896512F2F82EF06008E0B96 /* OrganisationDesGardes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A896512E2F82EF05008E0B96 /* OrganisationDesGardes.swift */; };
 		A8995E782FACF07D005F0675 /* Materiel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E772FACF07D005F0675 /* Materiel.swift */; };
 		A8995E7B2FACF4A3005F0675 /* Volontariat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E7A2FACF4A3005F0675 /* Volontariat.swift */; };
-		A8995E7D2FACFC4C005F0675 /* Habillement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E7C2FACFC4C005F0675 /* Habillement.swift */; };
 		A8995E7F2FACFD12005F0675 /* Infra.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E7E2FACFD12005F0675 /* Infra.swift */; };
 		A8995E812FACFF5A005F0675 /* Compagnie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E802FACFF5A005F0675 /* Compagnie.swift */; };
 		A8995E832FAD00C8005F0675 /* Prevision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E822FAD00C8005F0675 /* Prevision.swift */; };
 		A8995E852FAD0174005F0675 /* Com.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E842FAD0174005F0675 /* Com.swift */; };
 		A8995E872FAD028B005F0675 /* FormationSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E862FAD028B005F0675 /* FormationSport.swift */; };
+		A8995E892FAF1E3E005F0675 /* PersonnelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E882FAF1E3E005F0675 /* PersonnelService.swift */; };
+		A8995E8C2FAF1F92005F0675 /* PersonnelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E8B2FAF1F92005F0675 /* PersonnelViewModel.swift */; };
+		A8995E902FAF1FF9005F0675 /* PersonnelCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E8F2FAF1FF9005F0675 /* PersonnelCardView.swift */; };
+		A8995E922FAF200C005F0675 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E912FAF200C005F0675 /* CarouselView.swift */; };
+		A8995E952FAF202B005F0675 /* Officiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E942FAF202B005F0675 /* Officiers.swift */; };
+		A8995E972FAF20DD005F0675 /* Habillement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E962FAF20DD005F0675 /* Habillement.swift */; };
+		A8995E992FAF354C005F0675 /* Personnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E982FAF354C005F0675 /* Personnel.swift */; };
+		A8995E9B2FAF38CB005F0675 /* CATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E9A2FAF38CB005F0675 /* CATE.swift */; };
+		A8995E9D2FAF38D4005F0675 /* CA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E9C2FAF38D4005F0675 /* CA1.swift */; };
+		A8995E9F2FAF38DD005F0675 /* HDR.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E9E2FAF38DD005F0675 /* HDR.swift */; };
+		A8995EA12FAF38E4005F0675 /* SSSM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995EA02FAF38E4005F0675 /* SSSM.swift */; };
 		A8BD56302F7FFC3700FAB3E6 /* PTC_373App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD562F2F7FFC3700FAB3E6 /* PTC_373App.swift */; };
 		A8BD56322F7FFC3700FAB3E6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BD56312F7FFC3700FAB3E6 /* Persistence.swift */; };
 		A8BD56352F7FFC3700FAB3E6 /* PTC_373.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8BD56332F7FFC3700FAB3E6 /* PTC_373.xcdatamodeld */; };
@@ -97,12 +107,22 @@
 		A896512E2F82EF05008E0B96 /* OrganisationDesGardes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationDesGardes.swift; sourceTree = "<group>"; };
 		A8995E772FACF07D005F0675 /* Materiel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materiel.swift; sourceTree = "<group>"; };
 		A8995E7A2FACF4A3005F0675 /* Volontariat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volontariat.swift; sourceTree = "<group>"; };
-		A8995E7C2FACFC4C005F0675 /* Habillement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habillement.swift; sourceTree = "<group>"; };
 		A8995E7E2FACFD12005F0675 /* Infra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infra.swift; sourceTree = "<group>"; };
 		A8995E802FACFF5A005F0675 /* Compagnie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compagnie.swift; sourceTree = "<group>"; };
 		A8995E822FAD00C8005F0675 /* Prevision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prevision.swift; sourceTree = "<group>"; };
 		A8995E842FAD0174005F0675 /* Com.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Com.swift; sourceTree = "<group>"; };
 		A8995E862FAD028B005F0675 /* FormationSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormationSport.swift; sourceTree = "<group>"; };
+		A8995E882FAF1E3E005F0675 /* PersonnelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelService.swift; sourceTree = "<group>"; };
+		A8995E8B2FAF1F92005F0675 /* PersonnelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelViewModel.swift; sourceTree = "<group>"; };
+		A8995E8F2FAF1FF9005F0675 /* PersonnelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelCardView.swift; sourceTree = "<group>"; };
+		A8995E912FAF200C005F0675 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		A8995E942FAF202B005F0675 /* Officiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officiers.swift; sourceTree = "<group>"; };
+		A8995E962FAF20DD005F0675 /* Habillement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habillement.swift; sourceTree = "<group>"; };
+		A8995E982FAF354C005F0675 /* Personnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Personnel.swift; sourceTree = "<group>"; };
+		A8995E9A2FAF38CB005F0675 /* CATE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CATE.swift; sourceTree = "<group>"; };
+		A8995E9C2FAF38D4005F0675 /* CA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CA1.swift; sourceTree = "<group>"; };
+		A8995E9E2FAF38DD005F0675 /* HDR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDR.swift; sourceTree = "<group>"; };
+		A8995EA02FAF38E4005F0675 /* SSSM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSM.swift; sourceTree = "<group>"; };
 		A8BD562C2F7FFC3700FAB3E6 /* PTC 373.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PTC 373.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BD562F2F7FFC3700FAB3E6 /* PTC_373App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTC_373App.swift; sourceTree = "<group>"; };
 		A8BD56312F7FFC3700FAB3E6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -203,7 +223,10 @@
 		A86A1C052F92423D00CE4E5A /* Trombinoscope */ = {
 			isa = PBXGroup;
 			children = (
+				A8995E932FAF201B005F0675 /* Categories */,
 				A86A1C062F92425500CE4E5A /* Trombinoscope.swift */,
+				A8995E8F2FAF1FF9005F0675 /* PersonnelCardView.swift */,
+				A8995E912FAF200C005F0675 /* CarouselView.swift */,
 			);
 			path = Trombinoscope;
 			sourceTree = "<group>";
@@ -230,6 +253,7 @@
 				A8DB78B82F8E563B00D5F240 /* GitHubService.swift */,
 				A8BF97CD2F806BAA00E63110 /* BirthdayService.swift */,
 				A86A1C0A2F929AF400CE4E5A /* GoogleServiceAccount.swift */,
+				A8995E882FAF1E3E005F0675 /* PersonnelService.swift */,
 			);
 			name = Services;
 			path = AuthSystem/Services;
@@ -253,14 +277,35 @@
 			children = (
 				A8995E772FACF07D005F0675 /* Materiel.swift */,
 				A8995E7A2FACF4A3005F0675 /* Volontariat.swift */,
-				A8995E7C2FACFC4C005F0675 /* Habillement.swift */,
 				A8995E7E2FACFD12005F0675 /* Infra.swift */,
 				A8995E802FACFF5A005F0675 /* Compagnie.swift */,
 				A8995E822FAD00C8005F0675 /* Prevision.swift */,
 				A8995E842FAD0174005F0675 /* Com.swift */,
 				A8995E862FAD028B005F0675 /* FormationSport.swift */,
+				A8995E962FAF20DD005F0675 /* Habillement.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		A8995E8A2FAF1F7D005F0675 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8995E8B2FAF1F92005F0675 /* PersonnelViewModel.swift */,
+				A8995E982FAF354C005F0675 /* Personnel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8995E932FAF201B005F0675 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A8995E942FAF202B005F0675 /* Officiers.swift */,
+				A8995E9A2FAF38CB005F0675 /* CATE.swift */,
+				A8995E9C2FAF38D4005F0675 /* CA1.swift */,
+				A8995E9E2FAF38DD005F0675 /* HDR.swift */,
+				A8995EA02FAF38E4005F0675 /* SSSM.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		A8BD56232F7FFC3700FAB3E6 = {
@@ -287,6 +332,7 @@
 		A8BD562E2F7FFC3700FAB3E6 /* PTC 373 */ = {
 			isa = PBXGroup;
 			children = (
+				A8995E8A2FAF1F7D005F0675 /* Models */,
 				A89004B52F8237DD00532E1F /* DataBase */,
 				A89004B62F8237E800532E1F /* Services */,
 				A89004B72F8237F900532E1F /* Views */,
@@ -506,27 +552,35 @@
 				A8E12B8D2F8054F60051AA5F /* GazettePTC.swift in Sources */,
 				A8178C882F804E0E00F2F6A0 /* CompagnieView.swift in Sources */,
 				A86A1C0B2F929AF400CE4E5A /* GoogleServiceAccount.swift in Sources */,
+				A8995EA12FAF38E4005F0675 /* SSSM.swift in Sources */,
+				A8995E9B2FAF38CB005F0675 /* CATE.swift in Sources */,
 				A89004C02F82385800532E1F /* UserService.swift in Sources */,
 				A8BD56302F7FFC3700FAB3E6 /* PTC_373App.swift in Sources */,
 				A8995E832FAD00C8005F0675 /* Prevision.swift in Sources */,
-				A8995E7D2FACFC4C005F0675 /* Habillement.swift in Sources */,
+				A8995E922FAF200C005F0675 /* CarouselView.swift in Sources */,
 				A8DB78B92F8E563B00D5F240 /* GitHubService.swift in Sources */,
 				A8E12B872F8054B90051AA5F /* Remise.swift in Sources */,
 				A8DB89FC2F8BCE2D002B8B40 /* SafariService.swift in Sources */,
 				A82C00A62F8043A80023CF15 /* SideMenuView.swift in Sources */,
+				A8995E952FAF202B005F0675 /* Officiers.swift in Sources */,
 				A8995E7F2FACFD12005F0675 /* Infra.swift in Sources */,
 				A8E12B892F8054D10051AA5F /* PhotosVideos.swift in Sources */,
 				A8E12B8F2F8055080051AA5F /* NouveauxArrivants.swift in Sources */,
 				A8E12B7F2F8053230051AA5F /* Lisez_moi.swift in Sources */,
 				A8BD56322F7FFC3700FAB3E6 /* Persistence.swift in Sources */,
+				A8995E972FAF20DD005F0675 /* Habillement.swift in Sources */,
 				A8995E852FAD0174005F0675 /* Com.swift in Sources */,
 				A8995E812FACFF5A005F0675 /* Compagnie.swift in Sources */,
 				A8995E782FACF07D005F0675 /* Materiel.swift in Sources */,
+				A8995E892FAF1E3E005F0675 /* PersonnelService.swift in Sources */,
 				A82C00AC2F804BD20023CF15 /* PDFDestination.swift in Sources */,
+				A8995E8C2FAF1F92005F0675 /* PersonnelViewModel.swift in Sources */,
 				A8BF97CE2F806BAA00E63110 /* BirthdayService.swift in Sources */,
 				A82C00AE2F804BED0023CF15 /* HomeViewComponents.swift in Sources */,
 				A8CE446A2F824F4A0061AF05 /* RootView.swift in Sources */,
 				A8E12B8B2F8054E60051AA5F /* DatesImportantes.swift in Sources */,
+				A8995E902FAF1FF9005F0675 /* PersonnelCardView.swift in Sources */,
+				A8995E992FAF354C005F0675 /* Personnel.swift in Sources */,
 				A896512F2F82EF06008E0B96 /* OrganisationDesGardes.swift in Sources */,
 				A8E12B812F80547F0051AA5F /* DocumentsDeFormation.swift in Sources */,
 				A89004BC2F82383800532E1F /* UserLevel.swift in Sources */,
@@ -535,8 +589,10 @@
 				A8F4E63E2F890E94000C0756 /* Confidentialité.swift in Sources */,
 				A82C00A42F8043750023CF15 /* AppMenuItem.swift in Sources */,
 				A89004BE2F82384800532E1F /* AuthService.swift in Sources */,
+				A8995E9D2FAF38D4005F0675 /* CA1.swift in Sources */,
 				A8995E872FAD028B005F0675 /* FormationSport.swift in Sources */,
 				A8BD56612F80007200FAB3E6 /* HomeView.swift in Sources */,
+				A8995E9F2FAF38DD005F0675 /* HDR.swift in Sources */,
 				A89004C22F82386A00532E1F /* LoginView.swift in Sources */,
 				A8E12B912F8055150051AA5F /* Sondages.swift in Sources */,
 				A8BD56352F7FFC3700FAB3E6 /* PTC_373.xcdatamodeld in Sources */,

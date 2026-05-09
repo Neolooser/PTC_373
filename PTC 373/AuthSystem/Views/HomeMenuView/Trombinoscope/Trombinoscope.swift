@@ -1,9 +1,9 @@
 import Foundation
 import SwiftUI
 
-// MARK: - Vue Associatif (4 éléments)
 struct Trombinoscope: View {
-    let Trombinoscope = [
+
+    let items = [
         ("Officiers", "Officiers", Color.white),
         ("CATE", "CATE", Color.yellow),
         ("CA1", "CA1", Color.blue),
@@ -14,27 +14,64 @@ struct Trombinoscope: View {
     var body: some View {
         ScrollView {
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
-                ForEach(Trombinoscope, id: \.0) { Trombinoscope in
-                    NavigationLink(destination: TrombinoscopeDetailView(title: Trombinoscope.0)) {
-                        ServiceCircleView(title: Trombinoscope.0, imageName: Trombinoscope.1, color: Trombinoscope.2)
+
+                ForEach(items, id: \.0) { item in
+
+                    NavigationLink(destination: destinationView(for: item.0)) {
+                        ServiceCircleView(
+                            title: item.0,
+                            imageName: item.1,
+                            color: item.2
+                        )
                     }
                 }
             }
             .padding()
         }
     }
+
+    // ✅ Navigation dynamique vers la bonne vue
+    @ViewBuilder
+    func destinationView(for title: String) -> some View {
+        switch title {
+        case "Officiers":
+            Officiers()
+        case "CATE":
+            CATE()
+        case "CA1":
+            CA1()
+        case "HDR":
+            HDR()
+        case "SSSM":
+            SSSM()
+        default:
+            Text("Page introuvable")
+        }
+    }
 }
 
-struct TrombinoscopeDetailView: View {
+struct SectionTrombiView: View {
+
     let title: String
+    let items: [Personnel]
 
     var body: some View {
-        VStack {
-            Text("Bientôt disponibles...")
-                .font(.title)
-                .padding()
-            Spacer()
+        VStack(alignment: .leading, spacing: 10) {
+
+            Text(title)
+                .font(.title2)
+                .bold()
+                .padding(.horizontal)
+
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 12) {
+                    ForEach(items) { person in
+                        PersonnelCardView(personnel: person)
+                            .frame(width: 140) // ✅ largeur FIXE propre
+                    }
+                }
+                .padding(.horizontal, 16)
+            }
         }
-        .navigationTitle(title)
     }
 }
