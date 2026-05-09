@@ -6,13 +6,13 @@
       "name": "Payload",
       "bundleIdentifier": "App.PTC-373",
       "developerName": "Neolooser",
-      "version": "1.9",
-      "versionDescription": "Ajout de l'oganigramme\nRefonte de l'organisation des gardes\njout de la politique de confidentialité",
-      "versionDate": "2026-05-07",
-      "downloadURL": "https://github.com/Neolooser/PTC_373/releases/download/1.9/Payload.ipa",
+      "version": "1.10",
+      "versionDescription": "Ajout du Trombinoscope",
+      "versionDate": "2026-05-09",
+      "downloadURL": "https://github.com/Neolooser/PTC_373/releases/download/1.10/Payload.ipa",
       "iconURL": "https://neolooser.github.io/PTC_373/icon.png",
       "localizedDescription": "Application du CIS Pontault-Combault en test pour développeur",
-      "size": 46477473
+      "size": 46592512
     }
   ]
 }
