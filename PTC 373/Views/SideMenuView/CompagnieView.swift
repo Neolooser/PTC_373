@@ -125,12 +125,3 @@ class CompagnieViewModel: ObservableObject {
         currentMonth = formatter.string(from: Date()).capitalized
     }
 }
-
-// MARK: - Preview
-struct Compagnie_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            CompagnieView()
-        }
-    }
-}

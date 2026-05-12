@@ -215,12 +215,3 @@ struct EmailView: View {
         UIPasteboard.general.string = email
     }
 }
-
-// MARK: - Preview
-struct Annuaire_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            Annuaire()
-        }
-    }
-}

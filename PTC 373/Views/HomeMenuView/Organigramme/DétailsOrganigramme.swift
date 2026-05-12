@@ -125,12 +125,41 @@ struct Associatif: View {
         ("ASSAP", "ASSAP", Color.red)
     ]
 
+    @ViewBuilder
+    private func destinationView(for asso: String) -> some View {
+
+        switch asso {
+
+        case "Amicale":
+            AssoDetailViewAmicale()
+
+        case "COS":
+            AssoDetailViewCOS()
+
+        case "JSP":
+            AssoDetailViewJSP()
+
+        case "Lupins":
+            AssoDetailViewLupins()
+
+        case "ASSAP":
+            AssoDetailViewASSAP()
+            
+        default:
+            Text("Asso introuvable")
+        }
+    }
+
     var body: some View {
         ScrollView {
             LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
-                ForEach(associations, id: \.0) { association in
-                    NavigationLink(destination: AssociationDetailView(title: association.0)) {
-                        ServiceCircleView(title: association.0, imageName: association.1, color: association.2)
+                ForEach(associations, id: \.0) { asso in
+                    NavigationLink(destination: destinationView(for: asso.0)) {
+                        ServiceCircleView(
+                            title: asso.0,
+                            imageName: asso.1,
+                            color: asso.2
+                        )
                     }
                 }
             }
@@ -213,37 +242,4 @@ struct AssociationDetailView: View {
         .navigationTitle(title)
     }
 }
-
-// MARK: - Previews
-struct ServicesView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            Services()
-        }
-    }
-}
-
-struct TuteursView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            Tuteurs()
-        }
-    }
-}
-
-struct ReferentsView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            Referents()
-        }
-    }
-}
-
-struct AssociatifView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            Associatif()
-        }
-    }
-}
-
+//TEST

@@ -82,11 +82,3 @@ extension OrganisationDesGardes {
         }
     }
 }
-
-
-// Prévisualisation (optionnelle)
-struct OrganisationDesGardes_Previews: PreviewProvider {
-    static var previews: some View {
-        OrganisationDesGardes()
-    }
-}

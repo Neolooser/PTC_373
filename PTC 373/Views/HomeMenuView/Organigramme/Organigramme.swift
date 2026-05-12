@@ -133,12 +133,3 @@ struct SectionView: View {
         .navigationTitle(title)
     }
 }
-
-// MARK: - Preview
-struct Organigramme_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            Organigramme()
-        }
-    }
-}

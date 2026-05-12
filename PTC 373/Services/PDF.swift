@@ -1,6 +1,7 @@
 import SwiftUI
 import PDFKit
 
+// MARK : - PdfDestination
 struct PDFDestination: View {
     let fileName: String
     @Environment(\.presentationMode) var presentationMode
@@ -43,5 +44,34 @@ struct PDFDestination: View {
         }
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)
+    }
+}
+
+// MARK : - PDFViewer
+struct PDFViewer: UIViewRepresentable {
+    let url: URL
+
+    func makeUIView(context: Context) -> PDFKit.PDFView {
+        let pdfView = PDFKit.PDFView()
+        pdfView.autoScales = true
+        pdfView.displayMode = .singlePageContinuous
+        pdfView.displayDirection = .vertical
+        pdfView.pageShadowsEnabled = false
+        pdfView.displaysPageBreaks = false
+        pdfView.usePageViewController(false)
+
+        if let pdfDocument = PDFKit.PDFDocument(url: url) {
+            pdfView.document = pdfDocument
+        } else {
+            print("❌ Impossible de lire le PDF à l'URL : \(url)")
+        }
+
+        return pdfView
+    }
+
+    func updateUIView(_ uiView: PDFKit.PDFView, context: Context) {
+        if let pdfDocument = PDFKit.PDFDocument(url: url) {
+            uiView.document = pdfDocument
+        }
     }
 }

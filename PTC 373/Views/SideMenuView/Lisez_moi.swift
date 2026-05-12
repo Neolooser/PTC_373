@@ -43,10 +43,3 @@ struct Lisez_moi: View {
         .frame(maxWidth: .infinity)
     }
 }
-
-// Prévisualisation
-struct Lisez_moi_Previews: PreviewProvider {
-    static var previews: some View {
-        Lisez_moi()
-    }
-}

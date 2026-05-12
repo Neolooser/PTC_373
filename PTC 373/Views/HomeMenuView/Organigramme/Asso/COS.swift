@@ -1,15 +1,13 @@
+
 import SwiftUI
 
-struct ServiceDetailViewCom: View {
+struct AssoDetailViewCOS: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "CPL Anthony Noel",
-        "SCH Fabien De Toffol",
-        "SGT Ryan Guillard",
-        "CPL Aline Renaux",
-        "CPL Océane Bichler",
-        "ISP Maxime Leveques"
+        "",
+        "",
+        ""
     ]
 
     // 2 colonnes centrées
@@ -39,22 +37,22 @@ struct ServiceDetailViewCom: View {
                         )
                         .shadow(radius: 6)
 
-                    Text("Responsable du service")
+                    Text("Référent de centre")
                         .font(.caption)
                         .foregroundColor(.gray)
 
-                    Text("SCH Nicolas Noe")
+                    Text("Grade Nom Prénom")
                         .font(.title2)
                         .bold()
                         .multilineTextAlignment(.center)
-            }
-            .padding(.top, 20)
+                }
+                .padding(.top, 20)
 
                 // MARK: - Membres du service
 
                 VStack(spacing: 15) {
 
-                    Text("Membres du service")
+                    Text("Autres référents")
                         .font(.title3)
                         .bold()
 
@@ -91,24 +89,29 @@ struct ServiceDetailViewCom: View {
 
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Mise à jour des annuaires, listes de diffusion et photos, etiquettes pour bannettes et casier"
+                        text: "Gestion et suivi des entretiens des matériels du CIS"
                     )
+                    
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Communication interne et externe du CIS"
+                        text: "Gestion et suivi des entretiens des véhicules du CIS"
                     )
+
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Gestion des moyens techniques et informatique de communication du CIS"
+                        text: "Gestion de la PUI"
                     )
+
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Suivi de l’application du CIS"
+                        text: "Gestion des Carburants"
                     )
+
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Gestion du trombinoscope"
+                        text: "Gestion espace remise"
                     )
+
                 }
                 .padding()
                 .frame(maxWidth: .infinity, alignment: .leading)
