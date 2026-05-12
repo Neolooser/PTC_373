@@ -1,5 +1,21 @@
 import SwiftUI
 
+struct RootView: View {
+    @EnvironmentObject var auth: AuthService
+
+    var body: some View {
+
+        if auth.isLoading {
+            ProgressView() // ou SplashScreen
+        }
+        else if auth.isLoggedIn {
+            HomeView()
+        } else {
+            LoginView()
+        }
+    }
+}
+
 struct MainView: View {
     @EnvironmentObject var authService: AuthService
 
