@@ -34,7 +34,6 @@
 		A8995E852FAD0174005F0675 /* Com.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E842FAD0174005F0675 /* Com.swift */; };
 		A8995E872FAD028B005F0675 /* FormationSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E862FAD028B005F0675 /* FormationSport.swift */; };
 		A8995E892FAF1E3E005F0675 /* TrombinoscopeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E882FAF1E3E005F0675 /* TrombinoscopeService.swift */; };
-		A8995E8C2FAF1F92005F0675 /* PersonnelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E8B2FAF1F92005F0675 /* PersonnelViewModel.swift */; };
 		A8995E902FAF1FF9005F0675 /* TrombiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E8F2FAF1FF9005F0675 /* TrombiView.swift */; };
 		A8995E952FAF202B005F0675 /* Officiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E942FAF202B005F0675 /* Officiers.swift */; };
 		A8995E972FAF20DD005F0675 /* Habillement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8995E962FAF20DD005F0675 /* Habillement.swift */; };
@@ -119,7 +118,6 @@
 		A8995E842FAD0174005F0675 /* Com.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Com.swift; sourceTree = "<group>"; };
 		A8995E862FAD028B005F0675 /* FormationSport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormationSport.swift; sourceTree = "<group>"; };
 		A8995E882FAF1E3E005F0675 /* TrombinoscopeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrombinoscopeService.swift; sourceTree = "<group>"; };
-		A8995E8B2FAF1F92005F0675 /* PersonnelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnelViewModel.swift; sourceTree = "<group>"; };
 		A8995E8F2FAF1FF9005F0675 /* TrombiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrombiView.swift; sourceTree = "<group>"; };
 		A8995E942FAF202B005F0675 /* Officiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Officiers.swift; sourceTree = "<group>"; };
 		A8995E962FAF20DD005F0675 /* Habillement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habillement.swift; sourceTree = "<group>"; };
@@ -290,14 +288,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		A8995E8A2FAF1F7D005F0675 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A8995E8B2FAF1F92005F0675 /* PersonnelViewModel.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		A8995E932FAF201B005F0675 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,7 +324,6 @@
 		A8BD562E2F7FFC3700FAB3E6 /* PTC 373 */ = {
 			isa = PBXGroup;
 			children = (
-				A8995E8A2FAF1F7D005F0675 /* Models */,
 				A89004B52F8237DD00532E1F /* DataBase */,
 				A89004B62F8237E800532E1F /* Services */,
 				A89004B72F8237F900532E1F /* Views */,
@@ -568,7 +557,6 @@
 				A8995E782FACF07D005F0675 /* Materiel.swift in Sources */,
 				A8995E892FAF1E3E005F0675 /* TrombinoscopeService.swift in Sources */,
 				A82C00AC2F804BD20023CF15 /* PDF.swift in Sources */,
-				A8995E8C2FAF1F92005F0675 /* PersonnelViewModel.swift in Sources */,
 				A8BF97CE2F806BAA00E63110 /* BirthdayService.swift in Sources */,
 				A82C00AE2F804BED0023CF15 /* HomeViewComponents.swift in Sources */,
 				A8E12B8B2F8054E60051AA5F /* DatesImportantes.swift in Sources */,
