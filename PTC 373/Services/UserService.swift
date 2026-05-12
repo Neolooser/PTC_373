@@ -84,7 +84,7 @@ class UserService {
     // ✅ Récupération utilisateur
     func getUser(byUsername username: String) -> User? {
         return users.first {
-            ($0.username ?? "").lowercased() == username.lowercased()
+            ($0.username).lowercased() == username.lowercased()
         }
     }
     func getUser(byEmail email: String) -> User? {
