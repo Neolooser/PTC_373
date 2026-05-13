@@ -31,7 +31,7 @@ struct Lisez_moi: View {
             HStack {
                 Spacer()
                 VStack(spacing: 5) {
-                    Image("com_logo")  // <-- Assure-toi que cette image existe dans tes assets
+                    Image("COM")
                         .resizable()
                         .frame(width: 100, height: 100)
                     Text("La Com")

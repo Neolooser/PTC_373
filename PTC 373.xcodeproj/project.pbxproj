@@ -374,10 +374,10 @@
 		A8DB89FF2F8BF0BD002B8B40 /* Organigramme */ = {
 			isa = PBXGroup;
 			children = (
-				37033E4A2FB22FCF00EF1161 /* Asso */,
-				A8995E792FACF461005F0675 /* Services */,
 				A8DB89FD2F8BEE44002B8B40 /* Organigramme.swift */,
 				A8DB8A0C2F8BF34C002B8B40 /* DétailsOrganigramme.swift */,
+				37033E4A2FB22FCF00EF1161 /* Asso */,
+				A8995E792FACF461005F0675 /* Services */,
 			);
 			path = Organigramme;
 			sourceTree = "<group>";
