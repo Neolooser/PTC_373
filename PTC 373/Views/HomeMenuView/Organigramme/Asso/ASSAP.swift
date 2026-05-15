@@ -4,12 +4,10 @@ struct AssoDetailViewASSAP: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "SGT Brian Borderes",
-        "SCH Matthieu Boisseau",
-        "SCH Julien Dargent",
-        "CPL Valentin Gallot",
-        "CPL Nathan Ludot",
-        "CPL Julien Accault"
+        "GRD Prénom Nom",
+        "",
+        "",
+        ""
     ]
 
     // 2 colonnes centrées
@@ -28,7 +26,7 @@ struct AssoDetailViewASSAP: View {
 
                 VStack(spacing: 10) {
 
-                    Image("") // Remplacez par image chef de service
+                    Image("")
                         .resizable()
                         .scaledToFill()
                         .frame(width: 180, height: 180)
@@ -39,11 +37,11 @@ struct AssoDetailViewASSAP: View {
                         )
                         .shadow(radius: 6)
 
-                    Text("Responsable du service")
+                    Text("Référent")
                         .font(.caption)
                         .foregroundColor(.gray)
 
-                    Text("ADC Jeremy Chaigne")
+                    Text("GRD Prénom Nom")
                         .font(.title2)
                         .bold()
                         .multilineTextAlignment(.center)
@@ -54,7 +52,7 @@ struct AssoDetailViewASSAP: View {
 
                 VStack(spacing: 15) {
 
-                    Text("Membres du service")
+                    Text("Présidents ASSAP")
                         .font(.title3)
                         .bold()
 

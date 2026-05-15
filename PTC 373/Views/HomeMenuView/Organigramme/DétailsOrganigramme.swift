@@ -4,13 +4,13 @@ import SwiftUI
 struct Services: View {
     let services = [
         ("Materiel", "REMISE", Color.red),
-        ("Habillement", "", Color.orange),
+        ("Habillement", "Habillement", Color.orange),
         ("Infra", "Infra", Color.green),
         ("Compagnie", "Compagnie", Color.purple),
-        ("Prévision", "", Color.blue),
+        ("Prévision", "Prévision", Color.blue),
         ("Com", "COM", Color.yellow),
-        ("Formation / Sport", "", Color.gray),
-        ("Volontariat", "", Color.pink)
+        ("Formation / Sport", "Formation_Sport", Color.gray),
+        ("Volontariat", "Volontariat", Color.pink)
     ]
     @ViewBuilder
     private func destinationView(for service: String) -> some View {

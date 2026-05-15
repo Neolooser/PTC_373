@@ -26,7 +26,7 @@ struct AssoDetailViewCOS: View {
 
                 VStack(spacing: 10) {
 
-                    Image("") // Remplacez par image chef de service
+                    Image("")
                         .resizable()
                         .scaledToFill()
                         .frame(width: 180, height: 180)
@@ -41,7 +41,7 @@ struct AssoDetailViewCOS: View {
                         .font(.caption)
                         .foregroundColor(.gray)
 
-                    Text("Grade Nom Prénom")
+                    Text("ADC Yann Baudic")
                         .font(.title2)
                         .bold()
                         .multilineTextAlignment(.center)
