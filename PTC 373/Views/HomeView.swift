@@ -21,13 +21,13 @@ struct HomeView: View {
         var items = [
             AppMenuItem(title: "Lisez-moi", icon: "text.badge.checkmark", destination: Lisez_moi()),
             AppMenuItem(title: "Annuaire", icon: "person.text.rectangle", destination: Annuaire()),
-            AppMenuItem(title: "Documents de formation", icon: "doc.text.below.ecg", destination: DocumentsDeFormation()),
-            AppMenuItem(title: "Remise", icon: "box.truck", destination: Remise()),
+            //AppMenuItem(title: "Documents de formation", icon: "doc.text.below.ecg", destination: DocumentsDeFormation()),
+            //AppMenuItem(title: "Remise", icon: "box.truck", destination: Remise()),
             AppMenuItem(title: "Compagnie", icon: "person.3", destination: CompagnieView()),
-            AppMenuItem(title: "Médiathèque", icon: "photo.on.rectangle.angled", destination: MediaLibraryView()),
-            AppMenuItem(title: "Gazette PTC", icon: "newspaper", destination: GazettePTC()),
+            //AppMenuItem(title: "Médiathèque", icon: "photo.on.rectangle.angled", destination: MediaLibraryView()),
+            //AppMenuItem(title: "Gazette PTC", icon: "newspaper", destination: GazettePTC()),
             AppMenuItem(title: "Nouveaux Arrivants", icon: "person.badge.plus", destination: NouveauxArrivants()),
-            AppMenuItem(title: "Evenement", icon: "checkmark.circle", destination: Sondages()),
+            //AppMenuItem(title: "Evenement", icon: "checkmark.circle", destination: Sondages()),
             AppMenuItem(title: "Débug", icon: "ant", destination: Debug()),
             AppMenuItem(title: "Confidentialités", icon: "text.justify.left", destination: Confidentialités())
         ]

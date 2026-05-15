@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		37033E492FB0FBBD00EF1161 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37033E482FB0FBB600EF1161 /* RootView.swift */; };
 		37033E4C2FB22FFD00EF1161 /* Amicale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37033E4B2FB22FF200EF1161 /* Amicale.swift */; };
+		3706C12B2FB73E2D00FF7405 /* NouveauxArrivantsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3706C12A2FB73E2100FF7405 /* NouveauxArrivantsService.swift */; };
 		37C94CF32FB23E1100926DAF /* JSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37033E4F2FB2378E00EF1161 /* JSP.swift */; };
 		37C94CF42FB23E1700926DAF /* Lupins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37033E502FB2379D00EF1161 /* Lupins.swift */; };
 		37C94CF52FB23E1B00926DAF /* ASSAP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37033E512FB237C500EF1161 /* ASSAP.swift */; };
@@ -95,6 +96,7 @@
 		37033E4F2FB2378E00EF1161 /* JSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSP.swift; sourceTree = "<group>"; };
 		37033E502FB2379D00EF1161 /* Lupins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lupins.swift; sourceTree = "<group>"; };
 		37033E512FB237C500EF1161 /* ASSAP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASSAP.swift; sourceTree = "<group>"; };
+		3706C12A2FB73E2100FF7405 /* NouveauxArrivantsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NouveauxArrivantsService.swift; sourceTree = "<group>"; };
 		37C94CF22FB23CD700926DAF /* COS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COS.swift; sourceTree = "<group>"; };
 		37C94CF82FB30D9500926DAF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		A8178C872F804E0E00F2F6A0 /* CompagnieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompagnieView.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 				A8BF97CD2F806BAA00E63110 /* BirthdayService.swift */,
 				A86A1C0A2F929AF400CE4E5A /* GoogleServiceAccount.swift */,
 				A8995E882FAF1E3E005F0675 /* TrombinoscopeService.swift */,
+				3706C12A2FB73E2100FF7405 /* NouveauxArrivantsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -567,6 +570,7 @@
 				A82C00A42F8043750023CF15 /* AppMenuItem.swift in Sources */,
 				A89004BE2F82384800532E1F /* AuthService.swift in Sources */,
 				A8995E9D2FAF38D4005F0675 /* CA1.swift in Sources */,
+				3706C12B2FB73E2D00FF7405 /* NouveauxArrivantsService.swift in Sources */,
 				A8995E872FAD028B005F0675 /* FormationSport.swift in Sources */,
 				37033E4C2FB22FFD00EF1161 /* Amicale.swift in Sources */,
 				37C94CF62FB23E2000926DAF /* COS.swift in Sources */,
@@ -767,7 +771,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
-				MARKETING_VERSION = 1.11;
+				MARKETING_VERSION = 1.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "App.PTC-373";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -809,7 +813,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.7;
-				MARKETING_VERSION = 1.11;
+				MARKETING_VERSION = 1.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "App.PTC-373";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
