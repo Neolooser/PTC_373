@@ -96,7 +96,7 @@ struct Referents: View {
         ("Sport", "EAP", Color.blue),
         ("SSUAP / Tablettes", "Tablette", Color.pink),
         ("VSA / SINUS", "VSA", Color.orange),
-        ("ASTECH", "", Color.purple),
+        ("ASTECH", "ASTECH", Color.purple),
         ("Base VLI", "VLI", Color.green)
     ]
 
