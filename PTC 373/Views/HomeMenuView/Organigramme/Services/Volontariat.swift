@@ -4,9 +4,9 @@ struct ServiceDetailViewVolontariat: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "ADC Stéphane Marin",
-        "SCH Stéphane Ternat",
-        "SAP Dorian Varela"
+        "ADC Stéphane \nMarin",
+        "SCH Stéphane \nTernat",
+        "SAP Dorian \nVarela"
     ]
 
     // 2 colonnes centrées

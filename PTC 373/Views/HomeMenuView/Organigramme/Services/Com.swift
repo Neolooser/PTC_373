@@ -4,12 +4,12 @@ struct ServiceDetailViewCom: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "CPL Anthony Noel",
-        "SCH Fabien De Toffol",
-        "SGT Ryan Guillard",
-        "CPL Aline Renaux",
-        "CPL Océane Bichler",
-        "ISP Maxime Leveques"
+        "CPL Anthony \nNoel",
+        "SCH Fabien \nDe Toffol",
+        "SGT Ryan \nGuillard",
+        "CPL Aline \nRenaux",
+        "CPL Océane \nBichler",
+        "ISP Maxime \nLeveques"
     ]
 
     // 2 colonnes centrées

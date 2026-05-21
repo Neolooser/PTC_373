@@ -68,11 +68,11 @@ struct Services: View {
 // MARK: - Vue Tuteurs (4 éléments)
 struct Tuteurs: View {
     let tuteurs = [
-        ("Cavallo", "Cavallo", Color.blue),
+        ("SGT Cavallo\nVincent", "Cavallo", Color.blue),
         ("SGT De Toffol\nFabien", "DeToffol", Color.green),
-        ("Ruiz", "Ruiz", Color.orange),
-        ("Bichler", "Bichler", Color.red),
-        ("Varela", "Varela", Color.yellow)
+        ("CPL Ruiz\nJulien", "Ruiz", Color.orange),
+        ("CPL Bichler\nOcéne", "Bichler", Color.red),
+        ("SAP Varela\nDorian", "Varela", Color.yellow)
     ]
 
     var body: some View {

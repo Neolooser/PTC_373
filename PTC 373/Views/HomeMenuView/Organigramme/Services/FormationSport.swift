@@ -4,8 +4,8 @@ struct ServiceDetailViewFormationSport: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "SCH Mallory Ricozzi",
-        "SCH Vianney Seguy"
+        "SCH Mallory \nRicozzi",
+        "SCH Vianney \nSeguy"
     ]
 
     // 2 colonnes centrées

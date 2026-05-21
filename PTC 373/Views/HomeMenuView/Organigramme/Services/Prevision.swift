@@ -4,8 +4,8 @@ struct ServiceDetailViewPrevision: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "SGT Florian Cochet",
-        "SAP Maxime Gaubert"
+        "SGT Florian \nCochet",
+        "SAP Maxime \nGaubert"
     ]
 
     // 2 colonnes centrées

@@ -4,8 +4,9 @@ struct ServiceDetailViewHabillement: View {
 
     // Exemple de liste des membres du service
     let membres = [
-        "SCH Mallory Ricozzi",
-        "SCH Vianney Seguy"
+        "CPL Valentin \nHespel",
+        "CPL Damien \nCostamgno",
+        "CPL Julien \nCaiez"
     ]
 
     // 2 colonnes centrées
@@ -35,31 +36,11 @@ struct ServiceDetailViewHabillement: View {
                         )
                         .shadow(radius: 6)
 
-                    Text("Responsable Formation")
+                    Text("Chef de serivce")
                         .font(.caption)
                         .foregroundColor(.gray)
 
-                    Text("ADC David Chauvière")
-                        .font(.title2)
-                        .bold()
-                        .multilineTextAlignment(.center)
-                   
-                    Image("") // Remplacez par image chef de service
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 180, height: 180)
-                        .clipShape(Circle())
-                        .overlay(
-                            Circle()
-                                .stroke(Color.blue, lineWidth: 3)
-                        )
-                        .shadow(radius: 6)
-
-                    Text("Responsable Sport")
-                        .font(.caption)
-                        .foregroundColor(.gray)
-
-                    Text("ADJ Julien Rochefeuille")
+                    Text("ADC Renaud Goure")
                         .font(.title2)
                         .bold()
                         .multilineTextAlignment(.center)
@@ -107,39 +88,15 @@ struct ServiceDetailViewHabillement: View {
 
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Suivi des candidatures aux stages et gestion des remplacements / annulations"
+                        text: "Gestion des EPI et des commandes d'habillement"
                     )
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Mise en place des dispositifs destinés au maintien des acquis des SPV"
+                        text: "Gestions des armoires / vestiaires individuels"
                     )
                     missionRow(
                         icon: "checkmark.circle.fill",
-                        text: "Suivi des aptitudes opérationnelles"
-                    )
-                    missionRow(
-                        icon: "checkmark.circle.fill",
-                        text: "Organisation des FC SUAP formations internes : EA / VDA / SINUS / VSA / LSA / VLSM"
-                    )
-                    missionRow(
-                        icon: "checkmark.circle.fill",
-                        text: "Suivi de la validité des Permis de conduire et cod ACCR(VL-PL)"
-                    )
-                    missionRow(
-                        icon: "checkmark.circle.fill",
-                        text: "Encadrement quotidien des séances d’activité physique"
-                    )
-                    missionRow(
-                        icon: "checkmark.circle.fill",
-                        text: "Réalisation des Indicateurs de Condition Physique"
-                    )
-                    missionRow(
-                        icon: "checkmark.circle.fill",
-                        text: "Contrôle réglemantaire, entretien et Développement des équipements"
-                    )
-                    missionRow(
-                        icon: "checkmark.circle.fill",
-                        text: "Suivi des personnels en reprise et accompagnement personnalisé"
+                        text: "Gestion des terminaux Individuels d'alarme sélectifs (BIP)"
                     )
                 }
                 .padding()
